@@ -1,0 +1,55 @@
+{
+    "type": "record",
+    "name": "users",
+    "fields": [
+        {
+            "name": "transactionId",
+            "type": "string"
+        },
+        {
+            "name": "timestamp",
+            "type": "string",
+            "default": ""
+        },
+        {
+            "name": "amount",
+            "type": "float",
+            "default": 0.0
+        },
+        {
+            "name": "currency",
+            "type": "string",
+            "default": ""
+        },
+        {
+            "name": "city",
+            "type": "string",
+            "default": ""
+        },
+        {
+            "name": "country",
+            "type": "string",
+            "default": ""
+        },
+        {
+            "name": "merchantName",
+            "type": "string",
+            "default": ""
+        },
+        {
+            "name": "paymentMethod",
+            "type": "string",
+            "default": ""
+        },
+        {
+            "name": "ipAddress",
+            "type": "string",
+            "default": ""
+        },
+        {
+            "name": "voucherCode",
+            "type": "string",
+            "default": ""
+        }
+    ]
+}
